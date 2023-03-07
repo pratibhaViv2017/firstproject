@@ -6,15 +6,15 @@ public class Employee {
     private Integer id;
 
     @JsonProperty("employee_name")
-    private String employeeName;
+    private String employee_name;
 
     @JsonProperty("employee_salary")
-    private Long employeeSalary;
+    private Long employee_salary;
     @JsonProperty("employee_age")
-    private Integer employeeAge;
+    private Integer employee_age;
 
     @JsonProperty("profile_image")
-    private String profileImage;
+    private String profile_image;
 
     public Employee() {
     }
@@ -27,38 +27,35 @@ public class Employee {
         this.id = id;
     }
 
-
-
-    public Long getEmployeeSalary() {
-        return employeeSalary;
+    public String getEmployee_name() {
+        return employee_name;
     }
 
-    public void setEmployeeSalary(Long employeeSalary) {
-        this.employeeSalary = employeeSalary;
+    public void setEmployee_name(String employee_name) {
+        this.employee_name = employee_name;
     }
 
-
-    public Integer getEmployeeAge() {
-        return employeeAge;
+    public Long getEmployee_salary() {
+        return employee_salary;
     }
 
-    public void setEmployeeAge(Integer employeeAge) {
-        this.employeeAge = employeeAge;
+    public void setEmployee_salary(Long employee_salary) {
+        this.employee_salary = employee_salary;
     }
 
-    public String getProfileImage() {
-        return profileImage;
+    public Integer getEmployee_age() {
+        return employee_age;
     }
 
-    public void setProfileImage(String profileImage) {
-        this.profileImage = profileImage;
+    public void setEmployee_age(Integer employee_age) {
+        this.employee_age = employee_age;
     }
 
-    public String getEmployeeName() {
-        return employeeName;
+    public String getProfile_image() {
+        return profile_image;
     }
 
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
+    public void setProfile_image(String profile_image) {
+        this.profile_image = profile_image;
     }
 }
